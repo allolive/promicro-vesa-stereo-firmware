@@ -117,7 +117,8 @@ it says the emitter is powered separately.
 Monster Vision kit's) on its **3-pin VESA plug**, with its lens opening
 shortened (see *Ghosting* above). Other emitters with a VESA input (Volfoni,
 XPAND…) and 3.5 mm sync cables should work the same way, but nobody has
-tried them yet; those notes are marked *untested*.
+tried them yet; those notes are marked *untested*. So is the optional
+MOSFET in step 3.1: it is theoretical, nobody has built it yet.
 
 You build and use this at your own risk. Free for non-commercial use, not
 for sale: see *License* in the README.
@@ -154,7 +155,8 @@ for sale: see *License* in the README.
   large values (tens of kΩ and up): the emitter may not see the signal.
 - **Hook-up wire, solder, heat-shrink or tape,** and a **multimeter** with a
   continuity (beep) mode.
-- *Optional, to switch the emitter off when no 3D plays (step 3.1):* an
+- *Optional and untested, to switch the emitter off when no 3D plays
+  (step 3.1):* an
   **AO3401A** P-channel MOSFET (SOT-23, marked *A19T*), a **SOT-23 to DIP
   adapter board** to solder it on, a **10 kΩ** and a **220 Ω** resistor.
   For the tiny SOT-23: 63/37 rosin-core solder, 0.5–0.6 mm, and a no-clean
@@ -229,6 +231,11 @@ VCC unconnected and power the emitter as its manual says (by USB, for
 example).
 
 ### 3.1 Optional: switch the emitter's power (MOSFET)
+
+> **Untested.** We have not built or tried this version: the circuit
+> below is theoretical, worked out on paper, and not proven on a real
+> board. Build it only if you are ready to debug it yourself, and tell us
+> how it goes.
 
 > **Needs firmware 0.2.0 and add-on 0.8.6 or newer.** An older firmware
 > never drives pin 8, so with this wired the emitter would stay **off**.

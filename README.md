@@ -45,7 +45,8 @@ wiring, flashing and using it with the Kodi add-on, step by step.
   3.3 V / 8 MHz Pro Micro does not.
 - **Parts:** a resistor for the sync wire, 220 Ω (two 100 Ω in series do;
   one 100 Ω works but leaves less margin against a short) and the emitter's
-  3-pin VESA cable. Optional: an AO3401A P-channel MOSFET on the emitter's
+  3-pin VESA cable. Optional and untested (theoretical, nobody has built
+  it yet): an AO3401A P-channel MOSFET on the emitter's
   +5 V, gate on pin 8, so the board can switch the emitter off when no 3D
   plays (firmware 0.2.0 and add-on 0.8.6 or newer; see the guide, step
   3.1).
