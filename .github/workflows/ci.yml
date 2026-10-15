@@ -1,0 +1,87 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Timing simulation
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.x"
+      - run: pip install pytest
+      - run: make test
+
+  build:
+    name: Firmware (${{ matrix.board }})
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        include:
+          - board: leonardo        # also the Pro Micro 5V
+            fqbn: arduino:avr:leonardo
+          - board: micro
+            fqbn: arduino:avr:micro
+    steps:
+      - uses: actions/checkout@v7
+      - name: The tag names the release after the firmware's version
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: test "v$(make -s version)" = "$GITHUB_REF_NAME"
+      - name: Install arduino-cli and the AVR core
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | BINDIR="$HOME/.local/bin" sh -s 1.5.1
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          "$HOME/.local/bin/arduino-cli" core update-index
+          "$HOME/.local/bin/arduino-cli" core install arduino:avr@1.8.8
+      - run: make build build-lightrig FQBN=${{ matrix.fqbn }}
+      - name: Name the images after the board
+        run: |
+          cp build/promicro-vesa-stereo.ino.hex promicro-vesa-stereo-${{ matrix.board }}.hex
+          cp build/lightrig/lightrig.ino.hex lightrig-${{ matrix.board }}.hex
+      - uses: actions/upload-artifact@v7
+        with:
+          name: images-${{ matrix.board }}
+          path: "*-${{ matrix.board }}.hex"
+
+  release:
+    name: Release
+    # every build of main, and every v* tag
+    if: github.event_name == 'push'
+    needs: [test, build]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v8
+        with:
+          path: images
+          merge-multiple: true
+      - name: Name the release
+        id: name
+        run: |
+          if [ "$GITHUB_REF_TYPE" = tag ]; then
+            echo "tag=$GITHUB_REF_NAME" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=v$(make -s version)-$(date -u +%Y%m%d%H%M)-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Publish the images
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.name.outputs.tag }}
+        run: |
+          cd images
+          sha256sum *.hex > SHA256SUMS
+          gh release create "$TAG" *.hex SHA256SUMS --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" --title "$TAG" --latest \
+            --notes "Built from ${GITHUB_SHA::7}. promicro-vesa-stereo-leonardo.hex is for a Pro Micro 5V / 16 MHz or an Arduino Leonardo, -micro.hex for an Arduino Micro; lightrig-*.hex is the light timer in tools/lightrig. Flashing: see the README."

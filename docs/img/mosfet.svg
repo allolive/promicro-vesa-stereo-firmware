@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="780" viewBox="0 0 1080 780" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="780" fill="#ffffff"/>
+<text x="30" y="40" font-size="26" font-weight="bold" fill="#111">Optional: a switch on the emitter's +5 V</text>
+<text x="30" y="68" font-size="16" fill="#444">Pro Micro seen from the top, USB socket up, as in step 3. Needs firmware 0.2.0 and add-on 0.8.6 or newer.</text>
+<rect x="580" y="220" width="260" height="470" rx="14" fill="#1e5b8f" stroke="#0f3555" stroke-width="3"/>
+<rect x="672" y="190" width="76" height="44" rx="6" fill="#b9bec4" stroke="#6b7177" stroke-width="2"/>
+<text x="760" y="184" font-size="15" fill="#333">USB: to the box</text>
+<rect x="680" y="430" width="60" height="110" fill="#111" rx="4"/>
+<text x="710" y="490" font-size="11" text-anchor="middle" fill="#ddd" transform="rotate(-90 710 486)">ATmega32U4</text>
+<circle cx="606" cy="270" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="275" font-size="15" fill="#ffffff" font-weight="normal">TX</text>
+<circle cx="814" cy="270" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="275" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">RAW</text>
+<circle cx="606" cy="304" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="309" font-size="15" fill="#ffffff" font-weight="normal">RX</text>
+<circle cx="814" cy="304" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="309" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">GND</text>
+<circle cx="606" cy="338" r="9" fill="#2e9e4f" stroke="#14532a" stroke-width="3"/>
+<text x="624" y="343" font-size="15" fill="#ffffff" font-weight="bold">GND</text>
+<circle cx="814" cy="338" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="343" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">RST</text>
+<circle cx="606" cy="372" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="377" font-size="15" fill="#ffffff" font-weight="normal">GND</text>
+<circle cx="814" cy="372" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="377" font-size="15" fill="#ffffff" text-anchor="end" font-weight="bold">VCC</text>
+<circle cx="606" cy="406" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="411" font-size="15" fill="#ffffff" font-weight="normal">2</text>
+<circle cx="814" cy="406" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="411" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A3</text>
+<circle cx="606" cy="440" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="445" font-size="15" fill="#ffffff" font-weight="normal">3</text>
+<circle cx="814" cy="440" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="445" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A2</text>
+<circle cx="606" cy="474" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="479" font-size="15" fill="#ffffff" font-weight="normal">4</text>
+<circle cx="814" cy="474" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="479" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A1</text>
+<circle cx="606" cy="508" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="513" font-size="15" fill="#ffffff" font-weight="normal">5</text>
+<circle cx="814" cy="508" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="513" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A0</text>
+<circle cx="606" cy="542" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="547" font-size="15" fill="#ffffff" font-weight="normal">6</text>
+<circle cx="814" cy="542" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="547" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">15</text>
+<circle cx="606" cy="576" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="581" font-size="15" fill="#ffffff" font-weight="normal">7</text>
+<circle cx="814" cy="576" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="581" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">14</text>
+<circle cx="606" cy="610" r="9" fill="#b79ad6" stroke="#6a3d9a" stroke-width="3"/>
+<text x="624" y="615" font-size="15" fill="#ffffff" font-weight="bold">8</text>
+<circle cx="814" cy="610" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="615" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">16</text>
+<circle cx="606" cy="644" r="9" fill="#ff7a1a" stroke="#a33f00" stroke-width="3"/>
+<text x="624" y="649" font-size="15" fill="#ffffff" font-weight="bold">9</text>
+<circle cx="814" cy="644" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="649" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">10</text>
+<rect x="30" y="274" width="150" height="424" rx="12" fill="#f3f4f6" stroke="#9aa0a6" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="105" y="264" font-size="15" text-anchor="middle" fill="#333">emitter cable</text>
+<path d="M 606 338 L 180 338" stroke="#14532a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="338" r="7" fill="#14532a"/>
+<text x="105" y="326" font-size="17" font-weight="bold" text-anchor="middle" fill="#14532a">GROUND</text>
+<text x="105" y="360" font-size="13" text-anchor="middle" fill="#333">a side pin</text>
+<text x="105" y="377" font-size="12" text-anchor="middle" fill="#777">(+ the shell, if it is ground)</text>
+<path d="M 606 644 L 400 644" stroke="#a33f00" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 290 644 L 180 644" stroke="#a33f00" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="290" y="627" width="110" height="34" rx="8" fill="#d9c7a3" stroke="#6b5532" stroke-width="2"/>
+<rect x="308" y="627" width="9" height="34" fill="#c0392b"/>
+<rect x="328" y="627" width="9" height="34" fill="#c0392b"/>
+<rect x="348" y="627" width="9" height="34" fill="#7b4a1e"/>
+<rect x="368" y="627" width="9" height="34" fill="#c9a227"/>
+<text x="345" y="616" font-size="16" font-weight="bold" text-anchor="middle" fill="#6b5532">220 Ω</text>
+<circle cx="180" cy="644" r="7" fill="#a33f00"/>
+<text x="105" y="632" font-size="17" font-weight="bold" text-anchor="middle" fill="#a33f00">SYNC</text>
+<text x="105" y="666" font-size="13" text-anchor="middle" fill="#333">pin by the notch</text>
+<rect x="425" y="85" width="90" height="110" rx="8" fill="#1f6f3f" stroke="#0e3d22" stroke-width="2"/>
+<rect x="490" y="104" width="18" height="12" fill="#c8ccd0" stroke="#6b7177"/>
+<rect x="490" y="164" width="18" height="12" fill="#c8ccd0" stroke="#6b7177"/>
+<rect x="432" y="134" width="18" height="12" fill="#c8ccd0" stroke="#6b7177"/>
+<rect x="450" y="95" width="40" height="90" rx="3" fill="#222222"/>
+<text x="470" y="140" font-size="13" font-weight="bold" fill="#e6e6e6" text-anchor="middle" transform="rotate(-90 470 140)">A19T</text>
+<text x="486" y="98" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="end">2 S</text>
+<text x="486" y="192" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="end">1 G</text>
+<text x="438" y="128" font-size="13" font-weight="bold" fill="#ffffff">3 D</text>
+<text x="470" y="216" font-size="15" font-weight="bold" text-anchor="middle" fill="#111">AO3401A</text>
+<text x="470" y="233" font-size="12" text-anchor="middle" fill="#444">on a SOT-23 adapter</text>
+<path d="M 814 372 L 900 372 L 900 110 L 508 110" stroke="#c0392b" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="908" y="366" font-size="14" font-weight="bold" fill="#c0392b">VCC</text>
+<circle cx="540" cy="110" r="7" fill="#c0392b"/>
+<rect x="527" y="120" width="26" height="40" rx="8" fill="#d9c7a3" stroke="#6b5532" stroke-width="2"/>
+<rect x="527" y="130" width="26" height="8" fill="#7b4a1e"/>
+<rect x="527" y="143" width="26" height="8" fill="#111111"/>
+<rect x="527" y="156" width="26" height="8" fill="#e67e22"/>
+<rect x="527" y="169" width="26" height="8" fill="#c9a227"/>
+<text x="562" y="138.0" font-size="16" font-weight="bold" text-anchor="start" fill="#6b5532">10 kΩ</text>
+<text x="562" y="156.0" font-size="13" text-anchor="start" fill="#6b5532">keeps it off at start</text>
+<path d="M 540 110 L 540 120" stroke="#c0392b" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 540 160 L 540 170" stroke="#6a3d9a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="540" cy="170" r="7" fill="#6a3d9a"/>
+<path d="M 606 610 L 560 610 L 560 560" stroke="#6a3d9a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="547" y="450" width="26" height="110" rx="8" fill="#d9c7a3" stroke="#6b5532" stroke-width="2"/>
+<rect x="547" y="460" width="26" height="8" fill="#c0392b"/>
+<rect x="547" y="473" width="26" height="8" fill="#c0392b"/>
+<rect x="547" y="486" width="26" height="8" fill="#7b4a1e"/>
+<rect x="547" y="499" width="26" height="8" fill="#c9a227"/>
+<text x="538" y="503.0" font-size="16" font-weight="bold" text-anchor="end" fill="#6b5532">220 Ω</text>
+<text x="538" y="521.0" font-size="13" text-anchor="end" fill="#6b5532">to the gate</text>
+<path d="M 560 450 L 560 352 A 14 14 0 0 0 560 324 L 560 170 L 508 170" stroke="#6a3d9a" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 432 140 L 16 140 L 16 490 L 50 490" stroke="#c0392b" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="50" cy="490" r="7" fill="#c0392b"/>
+<text x="230" y="128" font-size="13" text-anchor="middle" fill="#c0392b">switched +5 V</text>
+<text x="64" y="486" font-size="17" font-weight="bold" fill="#c0392b">+5 V</text>
+<text x="64" y="504" font-size="13" fill="#333">other side pin</text>
+<text x="30" y="738" font-size="14" fill="#444">Pin 8 low: the emitter is on. Pin 8 high, or not driven yet: off (the 10 kΩ pulls the gate up to VCC).</text>
+<text x="30" y="760" font-size="14" fill="#444">Source to VCC, drain to the emitter: the other way round, the MOSFET's inner diode feeds the emitter even when off.</text>
+</svg>

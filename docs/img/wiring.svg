@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="710" viewBox="0 0 1080 710" font-family="Helvetica, Arial, sans-serif">
+<rect width="1080" height="710" fill="#ffffff"/>
+<text x="30" y="40" font-size="26" font-weight="bold" fill="#111">Three wires, that is all</text>
+<text x="30" y="68" font-size="16" fill="#444">Pro Micro seen from the top, USB socket up. The labels are printed on the board.</text>
+<g transform="translate(0,70)"><rect x="580" y="90" width="260" height="470" rx="14" fill="#1e5b8f" stroke="#0f3555" stroke-width="3"/>
+<rect x="672" y="60" width="76" height="44" rx="6" fill="#b9bec4" stroke="#6b7177" stroke-width="2"/>
+<text x="710" y="52" font-size="15" text-anchor="middle" fill="#333">USB: to the box</text>
+<rect x="680" y="300" width="60" height="110" fill="#111" rx="4"/>
+<text x="710" y="360" font-size="11" text-anchor="middle" fill="#ddd" transform="rotate(-90 710 356)">ATmega32U4</text>
+<circle cx="606" cy="140" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="145" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">TX</text>
+<circle cx="606" cy="174" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="179" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">RX</text>
+<circle cx="606" cy="208" r="9" fill="#2e9e4f" stroke="#14532a" stroke-width="3"/>
+<text x="624" y="213" font-size="15" fill="#ffffff" text-anchor="start" font-weight="bold">GND</text>
+<circle cx="606" cy="242" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="247" font-size="15" fill="#ffffff" text-anchor="start" font-weight="bold">GND</text>
+<circle cx="606" cy="276" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="281" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">2</text>
+<circle cx="606" cy="310" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="315" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">3</text>
+<circle cx="606" cy="344" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="349" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">4</text>
+<circle cx="606" cy="378" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="383" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">5</text>
+<circle cx="606" cy="412" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="417" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">6</text>
+<circle cx="606" cy="446" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="451" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">7</text>
+<circle cx="606" cy="480" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="624" y="485" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">8</text>
+<circle cx="606" cy="514" r="9" fill="#ff7a1a" stroke="#a33f00" stroke-width="3"/>
+<text x="624" y="519" font-size="15" fill="#ffffff" text-anchor="start" font-weight="bold">9</text>
+<circle cx="814" cy="140" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="145" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">RAW</text>
+<circle cx="814" cy="174" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="179" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">GND</text>
+<circle cx="814" cy="208" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="213" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">RST</text>
+<circle cx="814" cy="242" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="247" font-size="15" fill="#ffffff" text-anchor="end" font-weight="bold">VCC</text>
+<circle cx="814" cy="276" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="281" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A3</text>
+<circle cx="814" cy="310" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="315" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A2</text>
+<circle cx="814" cy="344" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="349" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A1</text>
+<circle cx="814" cy="378" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="383" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">A0</text>
+<circle cx="814" cy="412" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="417" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">15</text>
+<circle cx="814" cy="446" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="451" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">14</text>
+<circle cx="814" cy="480" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="485" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">16</text>
+<circle cx="814" cy="514" r="9" fill="#e8c76a" stroke="#8a6d1e" stroke-width="3"/>
+<text x="796" y="519" font-size="15" fill="#ffffff" text-anchor="end" font-weight="normal">10</text>
+<rect x="30" y="144" width="150" height="424" rx="12" fill="#f3f4f6" stroke="#9aa0a6" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="105" y="134" font-size="15" text-anchor="middle" fill="#333">emitter cable</text>
+<path d="M 606 208 L 180 208" stroke="#14532a" stroke-width="6" fill="none" stroke-linecap="round"/>
+<circle cx="180" cy="208" r="7" fill="#14532a"/>
+<text x="105" y="196" font-size="17" font-weight="bold" text-anchor="middle" fill="#14532a">GROUND</text>
+<text x="105" y="230" font-size="13" text-anchor="middle" fill="#333">a side pin</text>
+<text x="105" y="247" font-size="13" text-anchor="middle" fill="#333">+ the plug's metal shell</text><text x="105" y="264" font-size="12" text-anchor="middle" fill="#777">(3.5 mm: sleeve)</text>
+<path d="M 606 514 L 400 514" stroke="#a33f00" stroke-width="6" fill="none" stroke-linecap="round"/>
+<path d="M 290 514 L 180 514" stroke="#a33f00" stroke-width="6" fill="none" stroke-linecap="round"/>
+<rect x="290" y="497" width="110" height="34" rx="8" fill="#d9c7a3" stroke="#6b5532" stroke-width="2"/>
+<rect x="308" y="497" width="9" height="34" fill="#c0392b"/>
+<rect x="328" y="497" width="9" height="34" fill="#c0392b"/>
+<rect x="348" y="497" width="9" height="34" fill="#7b4a1e"/>
+<rect x="368" y="497" width="9" height="34" fill="#c9a227"/>
+<text x="345" y="486" font-size="16" font-weight="bold" text-anchor="middle" fill="#6b5532">resistor 220 Ω</text>
+<text x="345" y="554" font-size="13" text-anchor="middle" fill="#6b5532">(or two 100 Ω in a row)</text>
+<circle cx="180" cy="514" r="7" fill="#a33f00"/>
+<text x="105" y="502" font-size="17" font-weight="bold" text-anchor="middle" fill="#a33f00">SYNC</text>
+<text x="105" y="536" font-size="13" text-anchor="middle" fill="#333">pin by the notch</text>
+<text x="105" y="553" font-size="13" text-anchor="middle" fill="#333">or 3.5 mm tip</text>
+<path d="M 814 242 L 900 242 L 900 25 L 16 25 L 16 360 L 50 360" stroke="#c0392b" stroke-width="6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="50" cy="360" r="7" fill="#c0392b"/>
+<text x="64" y="356" font-size="17" font-weight="bold" fill="#c0392b">+5 V</text>
+<text x="64" y="374" font-size="13" fill="#333">other side pin</text>
+<text x="64" y="390" font-size="12" fill="#777">(3.5 mm: none)</text>
+<text x="908" y="236" font-size="14" font-weight="bold" fill="#c0392b">VCC</text>
+<text x="908" y="254" font-size="12" fill="#555">powers the emitter</text></g><text x="30" y="672" font-size="14" fill="#444">Any GND pin works (they are joined). The green wire also goes to the plug's metal shell. Only the orange wire has a resistor.</text>
+<text x="30" y="694" font-size="14" fill="#444">The red wire powers the emitter through the 3-pin cable. (3.5 mm cable, untested: no +5 V, leave VCC free, use its USB plug.)</text>
+</svg>
